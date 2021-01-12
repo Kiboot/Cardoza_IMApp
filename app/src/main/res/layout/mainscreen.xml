@@ -7,12 +7,50 @@
     tools:context=".MainScreen">
 
     <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="ChatMate 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum Dolor Sit Amet"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChatMate 4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/placeholder" />
+
+    <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lorem Ipsum Dolor Sit Amet"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/textView11" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -21,13 +59,15 @@
         android:layout_marginTop="64dp"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/pusanghilaw" />
+        app:srcCompat="@drawable/placeholder" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ChatMate 2"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
@@ -36,19 +76,22 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="132dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pusanghilaw" />
+        app:srcCompat="@drawable/placeholder" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="ChatMate 1"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+        android:layout_marginTop="40dp"
+        android:text="''Friends'' daw nimo"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
@@ -62,17 +105,18 @@
         android:id="@+id/imageView5"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_marginStart="4dp"
         android:layout_marginTop="64dp"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@drawable/lingin" />
+        app:srcCompat="@drawable/placeholder" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="ChatMate 3"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="@+id/imageView5" />
 
@@ -80,7 +124,9 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Lorem Ipsum Dolor Sit Amet"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintStart_toStartOf="@+id/textView6" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
