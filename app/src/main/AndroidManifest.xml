@@ -11,9 +11,21 @@
         android:theme="@style/Theme.Cardoza_IMApp">
         <activity android:name=".Gallery"></activity>
         <activity android:name=".PMScreen" />
-        <activity android:name=".MainScreen" />
+        <activity android:name=".MainScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Register" />
-        <activity android:name=".LoginScreen" />
+        <activity android:name=".LoginScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
